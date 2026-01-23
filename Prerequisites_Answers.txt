@@ -1,0 +1,46 @@
+PART 1: PREREQUISITES CHECK - ANSWERS
+
+Question 1: What is an arrow function? Show with code.
+
+An arrow function is a shorter syntax for writing functions in JavaScript introduced in ES6.
+
+Example:
+const greet = (name) => `Hello, ${name}!`;
+const double = num => num * 2;
+
+---
+
+Question 2: What does destructuring do? Show with code.
+
+Destructuring extracts values from arrays or objects into variables.
+
+Example:
+const person = { name: 'Alice', age: 25 };
+const { name, age } = person;
+
+const colors = ['red', 'green', 'blue'];
+const [first, second] = colors;
+
+---
+
+Question 3: What is the spread operator (...) used for?
+
+The spread operator expands array or object elements.
+
+Uses:
+- Copying: const arr2 = [...arr1];
+- Combining: const food = [...fruits, ...veggies];
+- Function args: Math.max(...numbers);
+
+---
+
+Question 4: Write a ternary operator example.
+
+const age = 20;
+const canVote = age >= 18 ? 'Yes, you can vote' : 'No, you cannot vote';
+
+---
+
+Question 5: Explain: const names = ['Alice', 'Bob']; const greetings = names.map(name => `Hello ${name}`);
+
+This uses .map() to transform an array. It iterates over ['Alice', 'Bob'] and creates a new array ['Hello Alice', 'Hello Bob'] using template literals.
